@@ -1,0 +1,155 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    background: linear-gradient(to bottom right, #FFFFFF,#FFC2D2, #FFE4EC);
+}
+
+/* Style for the navigation bar */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    /* Change the background color as needed */
+    color: #E74571;
+    /* Change the text color as needed */
+    padding: 15px 100px;
+    /* Adjust padding as needed */
+}
+
+/* Style for the logo */
+.logo span {
+    font-size: 1.5rem;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    /* Add more styling as needed */
+}
+
+/* Style for the menu */
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    /* Adjust the spacing between menu items as needed */
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li.active a{
+    color: #E74571;
+    /* Change the background and text color of active menu items as needed */
+}
+
+.menu a {
+    color: #393939;
+    /* Change the text color of menu items as needed */
+    text-decoration: none;
+    font-weight: bold;
+    /* Add more styling as needed */
+}
+
+.home-sec {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-bottom: 135px;
+}
+
+.headline{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.headline .second-line{
+    margin-left: 100px;
+}
+
+h1{
+    font-size: 60px;
+    color: #393939;
+}
+
+.headline .third-line{
+    font-size: 72px;
+}
+
+.pink{
+    color: #E74571;
+}
+
+.home-img img{
+    width:600px;
+    height: auto;
+    margin-right: 150px;
+}
+
+button{
+    display: inline-block;
+        margin: 35px 5px;
+        border: 1px solid #BA375B;
+        background: transparent;
+        color: #BA375B;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+        cursor: pointer;
+}
+
+button:hover{
+    background: #BA375B;
+    color: #fff;
+    transition: all 200ms ease-in-out;
+}
+
+.about-sec{
+    background-color: #BA375B;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+
+.about-sec .header{
+    color: #fff;
+    font-size: 45px;
+    text-align: center;
+}
+
+.about-sec .about-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.about-sec h3{
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.about-sec .about-img img{
+    width: 600px;
+    height: auto;
+    margin-right: 150px;
+    margin-left: 200px;
+}
+
+.about-sec .about-text{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 200px;
+    text-align: justify;
+}
